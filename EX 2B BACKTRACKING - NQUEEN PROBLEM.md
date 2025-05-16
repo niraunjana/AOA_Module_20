@@ -19,7 +19,7 @@ To solve the N-Queen problem using backtracking, which places N queens on an N*N
 ## Program:
 
 ```
-Program to implement N-Queen problem using backtracking.
+Program to implement N-Queen problem using backtracking
 
 DEVELOPED BY    : NIRAUNJANA GAYATHRI G R
 REGISTER NUMBER : 212222230096
@@ -89,7 +89,7 @@ solveNQ()
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/f513aad1-353b-4933-9b21-856de211463c)
+![image](https://github.com/user-attachments/assets/a3d682a0-2860-421f-9e2f-979a77a695a8)
 
 
 ## Result:
