@@ -20,8 +20,8 @@ To demonstrate that the sum of the subset of a given set is equal to the given s
 ```
 Program to implement Subset sum problem.
 
-Developed by    : NIRAUNJANA GAYATHRI G R
-Register Number : 212222230096
+DEVELOPED BY    : NIRAUNJANA GAYATHRI G R
+REGISTER NUMBER : 212222230096
 ```
 
 ```
