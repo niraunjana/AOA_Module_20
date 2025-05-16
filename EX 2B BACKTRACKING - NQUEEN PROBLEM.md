@@ -8,27 +8,21 @@ To solve the N-Queen problem using backtracking, which places N queens on an N*N
 
 ## Algorithm
 
-1. Input the size of the board (N)
-   - Take input for the number of queens and the size of the NxN chessboard.
-2. Place queens column by column using recursion
-   - Start from the first column and try placing a queen in all rows one by one.
-3. Check if placing the queen is safe
-   - For each cell, check the left row, the upper left diagonal, the lower left diagonal.
-   - Only proceed if all these are safe (i.e., no other queen is attacking).
-4. Use backtracking to explore all possibilities
-   - If placing the queen leads to a valid solution, move to the next column.
-   - If not, backtrack by removing the queen and try the next row.
-5. Print the board if all queens are placed
-   - If queens are placed in all columns, print the board.
-   - If not, print that no solution exists.
+
+1. Create an N x N chessboard and take user input for N, the number of queens to be placed.
+2. Create a 2D list board filled with 0s to represent the chessboard where 1 indicates a queen is placed.
+3. Starting from column 0, attempt to place a queen in every row of the current column and move recursively to the next column.
+4. For each attempted cell, verify that no other queen exists in the same row, upper-left diagonal, or lower-left diagonal.
+5. If a valid configuration is found, print the board. If no solution exists, backtrack and try other possibilities. Display a message if no configuration is 
+   possible.
 
 ## Program:
 
 ```
 Program to implement N-Queen problem using backtracking.
 
-Developed by: NIRAUNJANA GAYATHRI G R
-Register Number: 212222230096
+Developed by    : NIRAUNJANA GAYATHRI G R
+Register Number : 212222230096
 ```
 ```
 global N
