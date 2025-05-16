@@ -18,7 +18,7 @@ To demonstrate that the sum of the subset of a given set is equal to the given s
 ## Program:
 
 ```
-Program to implement Subset sum problem.
+Program to implement Subset sum problem
 
 DEVELOPED BY    : NIRAUNJANA GAYATHRI G R
 REGISTER NUMBER : 212222230096
@@ -50,7 +50,7 @@ subsetSum(n, arr, x)
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/c99750e5-752e-474e-8457-eec73fbf0bcb)
+![image](https://github.com/user-attachments/assets/861485be-da38-4535-a598-ae8846c7b46f)
 
 
 ## Result:
