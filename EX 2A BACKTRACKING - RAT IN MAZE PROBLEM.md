@@ -1,4 +1,4 @@
-# EX:2A - BACKTRACKING - RAT IN A MAZE PROBLEM
+# EX:2A - BACKTRACKING - RAT IN MAZE PROBLEM
 ## DATE:
 
 ## AIM:
@@ -29,6 +29,7 @@ To implement the Rat in a Maze problem using backtracking and find all possible 
 
 ```
 Program to implement Rat in a Maze.
+
 Developed by: NIRAUNJANA GAYATHRI G R
 Register Number: 212222230096
 
