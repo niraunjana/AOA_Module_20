@@ -8,33 +8,21 @@ To implement the Rat in a Maze problem using backtracking and find all possible 
 
 ## Algorithm:
 
-1. Initialize the maze and solution matrix
-   - Create a 2D list to represent the maze (1 for path, 0 for blocked).
-   - Initialize another 2D list of the same size with all zeros to store the solution path.
-2. Start from the top-left corner (0, 0)
-   - Begin the path from the first cell.
-   - Check if the current cell is safe to move (within bounds and has a value of 1).
-3. Explore possible moves (right and down)
-   - Move to the next cell by going either:
-   - Right (x, y+1) or
-   - Down (x+1, y)
-   - Recursively check each move for safety and whether it leads to the destination.
-4. Backtrack if no path is found
-   - If neither move leads to a solution, backtrack by setting the current cell in the solution matrix back to 0.
-5. Print the solution path or show no solution exists
-   - If the bottom-right corner is reached, print the solution matrix.
-   - If all paths are blocked, display that no solution exists.
+1. Initialize a 2D list maze to represent the grid (with 1 as path and 0 as blocked), and a 2D list sol of the same size filled with 0s to track the solution path.
+2. Begin solving from the top-left cell (0, 0) using a recursive function to explore valid paths.
+3. At each step, check if the current cell is within bounds and has a value of 1 to confirm it's a valid move.
+4. Recursively attempt to move to the right (x, y+1) or down (x+1, y) to find a path to the goal.
+5. If the destination (N-1, N-1) is reached, print the solution matrix. If no path is found, backtrack by resetting the cell and return false.
 
 ## Program:
 
 ```
 Program to implement Rat in a Maze.
 
-Developed by: NIRAUNJANA GAYATHRI G R
+Developed by   : NIRAUNJANA GAYATHRI G R
 Register Number: 212222230096
 
 ```
-
 ```
 N = 4
  
@@ -45,7 +33,6 @@ def printSolution( sol ):
             print(str(j) + " ", end ="")
         print("")
  
-
 def isSafe( maze, x, y ):
      
     if x >= 0 and x < N and y >= 0 and y < N and maze[x][y] == 1:
@@ -53,7 +40,6 @@ def isSafe( maze, x, y ):
      
     return False
  
-
 def solveMaze( maze ):
      
     # Creating a 4 * 4 2-D list
