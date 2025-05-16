@@ -17,7 +17,7 @@ To implement the Rat in a Maze problem using backtracking and find all possible 
 ## Program:
 
 ```
-Program to implement Rat in a Maze.
+Program to implement Rat in a Maze
 
 DEVELOPED BY    : NIRAUNJANA GAYATHRI G R
 REGISTER NUMBER : 212222230096
@@ -77,7 +77,7 @@ if __name__ == "__main__":
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/51dbaf66-da24-40c0-80a2-bfc7f33159c6)
+![image](https://github.com/user-attachments/assets/805dacaa-304a-46f2-b22f-d346b7703a68)
 
 
 ## Result:
