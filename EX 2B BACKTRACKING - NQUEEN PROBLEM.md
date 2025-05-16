@@ -13,10 +13,7 @@ To solve the N-Queen problem using backtracking, which places N queens on an N*N
 2. Place queens column by column using recursion
    - Start from the first column and try placing a queen in all rows one by one.
 3. Check if placing the queen is safe
-   - For each cell, check:
-   --> The left row,
-   --> The upper left diagonal,
-   --> The lower left diagonal
+   - For each cell, check the left row, the upper left diagonal, the lower left diagonal.
    - Only proceed if all these are safe (i.e., no other queen is attacking).
 4. Use backtracking to explore all possibilities
    - If placing the queen leads to a valid solution, move to the next column.
@@ -29,6 +26,7 @@ To solve the N-Queen problem using backtracking, which places N queens on an N*N
 
 ```
 Program to implement N-Queen problem using backtracking.
+
 Developed by: NIRAUNJANA GAYATHRI G R
 Register Number: 212222230096
 ```
