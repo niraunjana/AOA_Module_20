@@ -21,8 +21,8 @@ To solve the N-Queen problem using backtracking, which places N queens on an N*N
 ```
 Program to implement N-Queen problem using backtracking.
 
-Developed by    : NIRAUNJANA GAYATHRI G R
-Register Number : 212222230096
+DEVELOPED BY    : NIRAUNJANA GAYATHRI G R
+REGISTER NUMBER : 212222230096
 ```
 ```
 global N
