@@ -57,8 +57,7 @@ class Graph:
 
 ## Output:
 
-![graph merged](https://github.com/user-attachments/assets/7b19b845-1682-46b1-8fd7-713959dd0cce)
-
+![image](https://github.com/user-attachments/assets/3a638ea4-29c2-4dcf-b54b-906097917f8d)
 
 ## Result:
 
